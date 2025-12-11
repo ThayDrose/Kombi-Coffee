@@ -1,0 +1,137 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  color: rgb(101, 70, 56);
+  display: flex;
+  justify-content: center;
+}
+
+#container {
+  width: 992px;
+  text-align: center;
+}
+
+header {
+  margin: 1rem 0;
+}
+
+.hidden {
+  display: none;
+}
+
+ul {
+  background-color: rgb(101, 70, 56);
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  padding: 0.5rem;
+}
+
+li a {
+  color: white;
+  text-decoration: none;
+}
+
+main {
+  background-color: rgb(245, 243, 240);
+  box-shadow: 0 4px 5px rgba(0, 0, 0, 0.3);
+  padding-top: 1rem;
+}
+
+h1 {
+  font-size: 3rem;
+  text-align: center;
+}
+
+#banner {
+  background-image: url("./images/banner.jpg");
+  background-size: cover;
+  border-radius: 10px;
+  height: 15rem;
+  margin-top: 1rem;
+  position: relative;
+}
+
+#banner div {
+  background: rgb(0, 0, 0, 0.3);
+  border-radius: 99px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  height: 12rem;
+  top: 50%;
+  transform: translate(0, -50%);
+  left: 5%;
+  width: 12rem;
+}
+
+#banner div p {
+  color: white;
+  font-size: 1.5rem;
+  padding-left: 0.5rem;
+  text-align: left;
+  width: 8rem;
+}
+
+#infos {
+  display: flex;
+}
+
+.info {
+  flex: 1;
+  margin: 2rem 1rem;
+}
+
+.horizontal {
+  display: flex;
+  gap: 1rem;
+  margin-top: 1rem;
+}
+
+.horizontal p {
+  color: black;
+  font-style: normal;
+}
+.black {
+  color: black;
+  font-style: normal;
+}
+
+h2 {
+  font-size: 2rem;
+  font-style: italic;
+  margin-bottom: 1rem;
+}
+
+.info-image {
+  border-radius: 99px;
+  width: 100px;
+  height: 100px;
+}
+
+.brown {
+  color: brown;
+}
+@font-face {
+  font-family: "Lavish Script";
+  src: url("fonts/Lavish.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+footer {
+  height: 5rem;
+  padding: 1rem 2rem;
+  text-align: center;
+}
+footer p {
+  font-family: "Lavish Script", cursive;
+  color: rgba(66, 56, 78, 0.653);
+  font-weight: bold;
+  font-size: 1, 5rem;
+}
